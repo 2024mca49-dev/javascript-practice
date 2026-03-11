@@ -6,10 +6,18 @@
 <body>
     <h1>JavaScript Practice</h1>
 <button onclick="showMessage()"> click me </button>
+
+<div id="output"></div>
 <script>
     function showMessage(){
         alert("Hello from js !!");
     }
+    let name ='supraja';
+    let numbers=[1,2,3,4,5];
+
+    document.getElementById('output').innerHTML =
+    " <p>my name is "+name + " </p>" +
+    "<p>my numbers are "+numbers + " </p>";
 
 </script>
 </body>
